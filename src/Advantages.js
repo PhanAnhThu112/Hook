@@ -11,12 +11,10 @@ class Advantages extends Component {
             KQ:''
         };
     }
-    myChangeHandler =(event)=>{
+    myChangeHandler = async (event)=>{
         let key= event.target.name;
         let value=event.target.value;
-        this.setState({
-            [key]:value
-        });
+        await this.setState({[key]:value});
     }
     mySubmitHandler =(event)=>{
         event.preventDefault();

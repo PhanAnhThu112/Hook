@@ -5,15 +5,22 @@ import Hook from './Hook';
 import Car from './Car';
 import Input from './Input';
 import Advantages from './Advantages';
+import Menu from './Menu';
+import  Formenu  from './Formenu';
+import Drinkmenu from './Drinkmenu';
 
 function App() {
   return (
     <div>
-      <Color></Color>
+      {/* <Color></Color>
       <Hook></Hook>
       <Car></Car>
       <Input></Input>
       <Advantages></Advantages>
+      <Menu></Menu> */}
+      {/* <Formenu></Formenu> */}
+      <Drinkmenu></Drinkmenu>
+      
 
     </div>
   );
